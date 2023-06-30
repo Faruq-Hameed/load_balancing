@@ -1,0 +1,22 @@
+{
+  "name": "cluster_module",
+  "version": "1.0.0",
+  "description": "- A single NodeJS server is not flexible for handling a very large amount of traffic.  But in order to share traffic to your all application server, a load balancer is required.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
