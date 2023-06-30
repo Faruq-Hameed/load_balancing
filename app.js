@@ -7,8 +7,8 @@ app.use(helmet())
 
 //logger
 app.use(logger('dev'))
-
-// API endpoint
+    
+// API endpoint Without Cluster Module
 // Send public key as a response
 app.get('/key', (req, res) => {
 generateKeyPair('rsa', {
